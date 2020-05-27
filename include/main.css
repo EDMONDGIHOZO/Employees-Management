@@ -4,6 +4,13 @@ body {
     font-size: 14px;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+}
+
 .creation_form {
     border-radius: 20px;
     border: solid 1px lightblue;
@@ -18,5 +25,26 @@ textarea {
     box-sizing: border-box;
     background-color: lightblue;
     height: 100px;
-    padding: 30px;
+}
+
+.submit {
+    margin-top: 30px;
+}
+
+.error {
+    font-size: 20px;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 100%;
+}
+
+.success {
+    font-size: 20px;
+    background-color: rgb(43, 233, 84);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 100%;
 }
