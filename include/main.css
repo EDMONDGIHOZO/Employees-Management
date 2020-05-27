@@ -1,0 +1,12 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.creation_form {
+    border-radius: 20px;
+    border: solid 1px lightblue;
+    padding: 15px;
+    margin: 20px;
+}
