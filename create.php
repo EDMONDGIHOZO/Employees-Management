@@ -11,7 +11,7 @@
 
 <body>
     <div class="container">
-        <h1>Add new Employee</h1>
+        <h3>Add new Employee</h3>
         <hr>
         <form action="create.php" method="POST">
             <fieldset class="creation_form">
@@ -24,7 +24,8 @@
                 <span class="label">Salary</span>
                 <input type="text" name="salary" id="salary">
                 <span class="label">home Address</span>
-                <textarea  name="homeaddress" id="address" rows="8" cols="80"> </textarea>
+                <textarea  name="homeaddress" id="address"> </textarea>
+                <input type="button" value="create" type="submit" class="waves-effect waves-light btn">
             </fieldset>
         </form>
     </div>

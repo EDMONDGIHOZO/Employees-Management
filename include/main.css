@@ -10,3 +10,13 @@ body {
     padding: 15px;
     margin: 20px;
 }
+
+input[type="text"],
+textarea {
+    max-width: 100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: lightblue;
+    height: 100px;
+    padding: 30px;
+}
